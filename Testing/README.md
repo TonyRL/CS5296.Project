@@ -13,7 +13,7 @@ CPU | RAM | Disk | OS
 This one line script will install all the prerequisites and set it up properly.
 
 ```bash
-wget https://github.com/TonyRL/CS5296.Project/raw/master/Testing/setup.sh | sudo bash
+wget -qO- https://github.com/TonyRL/CS5296.Project/raw/master/Testing/setup.sh | sudo bash
 ```
 
 ## Test theoretical performance
@@ -21,7 +21,7 @@ wget https://github.com/TonyRL/CS5296.Project/raw/master/Testing/setup.sh | sudo
 We will run sysbench on CPU, RAM and disk and save the results to /tmp/
 
 ```bash
-wget https://github.com/TonyRL/CS5296.Project/raw/master/Testing/test.sh | sudo bash
+wget -qO- https://github.com/TonyRL/CS5296.Project/raw/master/Testing/test.sh | sudo bash
 ```
 
 ## Test web performance
@@ -55,4 +55,3 @@ Search Engine Visibility | &#x2611; Discourage search eng......
 
 1. Install and activate plugin WPPerformanceTester
 2. Start the test from Tools / WP Performance Tester
-3. 
